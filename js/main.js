@@ -13,7 +13,7 @@ var mercyChance = 0;
 
 var loot = Math.floor(Math.random() * 15) + 15;
 
-var goldchest = `<img src="https://codehs.com/uploads/e829ee4826409cb818022bea4c957bed" id="goldchest"/>`; 
+var goldchest = `<img src="images/chest.jiff" id="goldchest"/>`; 
 
 
 
