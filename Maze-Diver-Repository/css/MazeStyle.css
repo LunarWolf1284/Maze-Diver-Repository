@@ -1,0 +1,114 @@
+div.bottom {
+    position: fixed;
+    bottom: 0;
+    width: 20%;
+    display: inline-block;
+}
+
+#goblinHealth{
+    width: 20%;
+    display: inline-block;
+}
+
+#health{
+    background-color: red;
+}
+
+#gold{
+    background-color: Gold;
+}
+
+div.Title {
+    width: 33%;
+    margin: auto;
+    font-size: xx-large;
+}
+
+div.start {
+    width: 33%;
+    margin: auto;
+    font-size: xx-large;
+}
+
+div.center {
+    text-align: center;
+}
+
+body {
+    background-color: #252525;
+}
+
+button img {
+    height: 50px;
+}
+
+div.choices {
+    color: black;
+
+}
+
+#choice {
+    text-align: center;
+}
+
+#Fight {
+    left: 5%;
+    top: 50%;
+    position: absolute;
+}
+
+#Run {
+    left: 45%;
+    top: 50%;
+    position: absolute;
+}
+
+#Mercy {
+    right: 5%;
+    top: 50%;
+    position: absolute;
+}
+
+#left {
+    left: 5%;
+    top: 30%;
+    position: absolute;
+}
+
+#straight {
+    left: 50%;
+    top: 30%;
+    position: absolute;
+}
+
+#right {
+    right: 5%;
+    top: 30%;
+    position: absolute;
+}
+
+#hidden {
+    color: #252525;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    cursor: default;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+button {
+    height: 10mm;
+    width: 50mm;
+    background-color: rgb(151, 120, 80);
+}
