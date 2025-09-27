@@ -1,0 +1,39 @@
+<!-- S -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Maze</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/MazeStyle.css'>
+    <link rel="icon" type="image" href="C:\Users\zma37167\Downloads\maze-icon.jpg">
+    <script src='/js/main.js'></script>
+
+
+</head>
+<body onload="bars()">
+
+    <h1 id="choice"> Goblin is blocking your path.</h1>
+    <div class="center">
+    <img src = "/images/goblin.png" />
+    </div>
+
+    
+    <div class="center">
+        <h3 id="goblinHealth" style="background-color: green;"></h3>
+        <br>
+        <h1>What do you do?</h1>
+    </div>
+
+    <button type=button onclick="Fight()" id="Fight">Fight</button>
+    <button type=button onclick="Run()" id="Run">Run</button>
+    <button type=button onclick="Mercy()" id="Mercy">Mercy</button>
+
+    <div class="bottom">
+        <h1 id="health" style="background-color: red;"></h1>
+        <h1 id="gold" style="background-color: Gold;"></h1>
+    </div>
+</body>
+</html>
