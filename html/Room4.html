@@ -1,7 +1,8 @@
-<!-- R -->
+<!-- Right from Room1 -->
 
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -11,14 +12,23 @@
     <link rel="icon" type="image" href="https://codehs.com/uploads/da20a55655325cdc1640ef1c339e53c3">
     <script src='/js/main.js'></script>
 
-
 </head>
+
 <body onload="bars()">
 
+    <h1 id="choice">You've found a chest!</h1>
+    <div style="text-align: center;" id="trappedChest">
+    <img src="https://codehs.com/uploads/60d0d29aaf7cd4343d7f1448cf18edeb" id="chest"/>
+    </div>
+    <br>
+    <div id="button" style="text-align: center;">
+    <button type="button" onclick="trap()">open it?</button>
+    </div>
 
     <div class="bottom">
-        <h1 id="health"></h1>
-        <h1 id="gold"></h1>
+        <h1 id="health" style="background-color: red;"></h1>
+        <h1 id="gold" style="background-color: Gold;"></h1>
     </div>
 </body>
+
 </html>
