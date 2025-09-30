@@ -15,7 +15,7 @@ div.bottom {
 }
 
 #gold{
-    background-color: Gold;
+    background-color: gold;
 }
 
 div.Title {
@@ -49,6 +49,10 @@ div.choices {
 
 #choice {
     text-align: center;
+}
+
+#mimic {
+    height: 200px;
 }
 
 #Fight {
@@ -88,7 +92,7 @@ div.choices {
 }
 
 #hidden {
-    color: #252525;
+    color: #262626;
     left: 50%;
     top: 50%;
     position: absolute;

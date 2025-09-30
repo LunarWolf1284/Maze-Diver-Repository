@@ -1,24 +1,34 @@
-<!-- R -->
+<!-- Right from Room1 -->
 
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Maze</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='/css/MazeStyle.css'>
-    <link rel="icon" type="image" href="https://codehs.com/uploads/da20a55655325cdc1640ef1c339e53c3">
+    <link rel="icon" type="image" href="/images/tab icon.jfif">
     <script src='/js/main.js'></script>
 
-
 </head>
+
 <body onload="bars()">
 
+    <h1 id="choice">You've found a chest!</h1>
+    <div style="text-align: center;" id="trappedChest">
+    <img src="/images/closedChest.jpg" id="chest"/>
+    </div>
+    <br>
+    <div id="button" style="text-align: center;">
+    <button type="button" onclick="trap()">open it?</button>
+    </div>
 
     <div class="bottom">
         <h1 id="health"></h1>
         <h1 id="gold"></h1>
     </div>
 </body>
+
 </html>
