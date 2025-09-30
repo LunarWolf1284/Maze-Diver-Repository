@@ -13,9 +13,9 @@ var mercyChance = 0;
 
 var loot = Math.floor(Math.random() * 15) + 15;
 
-var goldchest = `<img src="https://codehs.com/uploads/e829ee4826409cb818022bea4c957bed" id="goldchest"/>`;
+var goldchest = `<img src="/images/goldChest.png" id="goldchest"/>`;
 
-var Mimic = `<img src="https://codehs.com/uploads/b8fd71313116f47f1afbe7534acfd9b3" id="mimic"/>`;
+var Mimic = `<img src="/images/Mimic.png" id="mimic"/>`;
 
 var IsDead = 1;
 
@@ -62,7 +62,7 @@ function Fight(){
 
         IsDead = 1;
 
-        document.getElementById("Goblin").innerHTML = `<img src= "https://codehs.com/uploads/fb527882ecbbed6f0d86997025e7c03a"/>`
+        document.getElementById("Goblin").innerHTML = `<img src= "/images/goblin.png"/>`
 
         goblinHealth = 50;
 
@@ -107,7 +107,7 @@ function Enemydeath(){
 
     IsDead = 2;
    
-    document.getElementById("Goblin").innerHTML = `<img src= "https://codehs.com/uploads/7dfb063a9921589bc14fce1c03e7fa93"/>`
+    document.getElementById("Goblin").innerHTML = `<img src= "/images/deadGoblin.png"/>`
 
     Gold = Gold + loot;
 }
@@ -127,7 +127,7 @@ function Run(){
     } else {
         alert("You got away!")
        
-        window.location.href="https://zachmarkcodehsme-15565893.codehs.me/Room1.html";
+        window.location.href="/html/Room1.html";
 
         runChance = Math.floor(Math.random() * 10) + 1;
     }
