@@ -10,6 +10,14 @@ div.bottom {
     display: inline-block;
 }
 
+#health{
+    background-color: red;
+}
+
+#gold{
+    background-color: gold;
+}
+
 div.Title {
     width: 33%;
     margin: auto;
