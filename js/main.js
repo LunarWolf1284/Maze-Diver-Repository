@@ -153,8 +153,7 @@ function Mercy(){
     }
     bars();
 }
-        Health = Health - damage
 
-    }
-    bars();
+function Progress(){
+    document.getElementById("style").innerHTML = `#progress{display:contents;} #Initial{display:none;}`
 }

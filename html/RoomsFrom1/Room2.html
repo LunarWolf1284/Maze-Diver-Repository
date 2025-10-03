@@ -1,4 +1,4 @@
-<!-- Right from Room1 -->
+<!-- West from Room1 -->
 
 <!DOCTYPE html>
 <html>
@@ -12,23 +12,43 @@
     <link rel="icon" type="image" href="/images/tab icon.jfif">
     <script src='/js/main.js'></script>
 
+    <style #style>
+        #progress{display:none;} #Initial{display:contents;}
+    </style>
+
 </head>
 
 <body onload="bars()">
 
-    <h1 id="choice">You've found a chest!</h1>
-    <div style="text-align: center;" id="trappedChest">
+<div id="Initial">
+    <h1 id="choice">You've found a chest</h1>
+    <div style="text-align: center;" id="chest">
     <img src="/images/closedChest.jpg" id="chest"/>
     </div>
     <br>
     <div id="button" style="text-align: center;">
-    <button type="button" onclick="trap()">open it?</button>
+    <button type="button" onclick="chest()">open it?</button>
     </div>
+</div>
+    
 
-    <div class="bottom">
+<div id="progress">
+    <div class="choices">
+        <h1 id="choice"> You're faced with a choice.</h1>
+        <a href="/html/RoomsFrom2/Room6.html">
+            <h2 id="West">Turn West</h2>
+        </a>
+        <a href="/html/RoomsFrom2/Room7.html">
+            <h2 id="South">Go South</h2>
+        </a>
+    </div>
+</div>
+
+<div class="bottom">
         <h1 id="health"></h1>
         <h1 id="gold"></h1>
     </div>
 </body>
 
 </html>
+

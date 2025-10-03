@@ -73,19 +73,19 @@ div.choices {
     position: absolute;
 }
 
-#left {
+#West {
     left: 5%;
     top: 30%;
     position: absolute;
 }
 
-#straight {
+#South {
     left: 50%;
     top: 30%;
     position: absolute;
 }
 
-#right {
+#East {
     right: 5%;
     top: 30%;
     position: absolute;
